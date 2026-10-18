@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+{{ $css := resources.Get "css/style.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="/">
+      <span class="brand-cn">{{ .Site.Params.schoolName }}</span>
+      <span class="brand-en">{{ .Site.Params.schoolNameEn }}</span>
+    </a>
+    <nav class="main-nav">
+      {{ range .Site.Menus.main }}
+      <a href="{{ .URL }}">{{ .Name }}</a>
+      {{ end }}
+      <a class="login-btn" href="https://reg.hxgv.org" target="_blank" rel="noopener">用户登录 Login</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+{{ block "main" . }}{{ end }}
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p><strong>{{ .Site.Params.schoolName }}</strong> · {{ .Site.Params.schoolNameEn }} · Since 2009</p>
+    <p>学校地址：East High School, 450 Ellis Lane, West Chester, PA 19380</p>
+    <p>邮政信箱：HXGV, PO Box 108, 64 E Uwchlan Ave, Exton, PA 19341</p>
+    <p>每周日下午 1:00–5:00 授课 · 每学年 30 周</p>
+  </div>
+</footer>
+</body>
+</html>

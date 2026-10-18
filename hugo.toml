@@ -1,0 +1,35 @@
+baseURL = 'https://hxgv.pages.dev/'
+languageCode = 'zh-CN'
+defaultContentLanguage = 'zh'
+title = '华夏中文学校大费城分校 | HuaXia Chinese School at Great Valley'
+
+[params]
+  description = '华夏中文学校大费城分校，since 2009。教授中文，弘扬中华文化，服务社区。'
+  schoolName = '华夏中文学校大费城分校'
+  schoolNameEn = 'HuaXia Chinese School at Great Valley'
+
+[menu]
+  [[menu.main]]
+    name = '首页 Home'
+    url = '/'
+    weight = 1
+  [[menu.main]]
+    name = '关于我们 About'
+    url = '/about/'
+    weight = 2
+  [[menu.main]]
+    name = '课程 Courses'
+    url = '/courses/'
+    weight = 3
+  [[menu.main]]
+    name = '活动 Events'
+    url = '/events/'
+    weight = 4
+  [[menu.main]]
+    name = '新闻 News'
+    url = '/posts/'
+    weight = 5
+  [[menu.main]]
+    name = '联系我们 Contact'
+    url = '/contact/'
+    weight = 6

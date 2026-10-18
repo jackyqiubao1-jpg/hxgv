@@ -1,0 +1,10 @@
+{{ define "main" }}
+<div class="hero">
+  <h1>{{ .Site.Params.schoolName }}</h1>
+  <p class="hero-en">{{ .Site.Params.schoolNameEn }}, since 2009</p>
+  <p class="hero-tag">Love Learning Chinese &amp; More...</p>
+</div>
+<article class="page">
+{{ .Content }}
+</article>
+{{ end }}
