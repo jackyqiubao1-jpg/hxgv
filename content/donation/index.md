@@ -3,7 +3,7 @@ title: "捐款 Donation"
 ---
 # Donation 捐款
 
-![Donation](/uploads/2022/01/Untitled-1.png)
+![Donation](/uploads/Untitled-1.png)
 
 HXGV is a nonprofit Corporation that meets the requirements of section 501(c)(3) of the Internal Revenue Code. HXGV is exempt from Federal income tax under section 501(c)(3).
 

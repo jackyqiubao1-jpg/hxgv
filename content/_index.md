@@ -13,7 +13,7 @@ title: "华夏中文学校大费城分校"
 
 Our missions are to teach Chinese language, promote Chinese culture to the public, and serve the local communities. The school offers simplified Chinese, phonetic system (Pin Yin), and culture classes as well as parent activities every Sunday from 1:00 PM to 5:00 PM except holidays. There are 30 sessions per calendar year. The school admits students of at least 5 years of age, regardless of gender, race, religion, or heritage. Welcome to HuaXia Chinese School at Great Valley!
 
-宣传视频：/uploads/2022/01/WelcometoHuaxia2-1.mp4
+宣传视频：/uploads/WelcometoHuaxia2-1.mp4
 
 ## Latest News & Events
 
@@ -38,7 +38,7 @@ CLS for Chinese as 2nd
 English Writing
 Business for Teen
 
-![English & Business](/uploads/2022/01/4891433.png)
+![English & Business](/uploads/4891433.png)
 
 ### STEM STEM 课程
 
@@ -50,7 +50,7 @@ Lego Robotics
 
 Preparation for AP Computer, English Languages, Literature...
 
-![AP](/uploads/2022/01/2970785.png)
+![AP](/uploads/2970785.png)
 
 ### Art 绘画
 
@@ -58,7 +58,7 @@ Anime painting
 Basic skill
 Watercolor & Oil painting
 
-![Art](/uploads/2022/01/857455.png)
+![Art](/uploads/857455.png)
 
 ### Others 文体兴趣类
 
@@ -68,7 +68,7 @@ Chess, Dance, PingPong, Tennis, Chorus, Karate, Badminton
 
 Painting, Tennis, Photography, Chorus, Dance, Literature and Art
 
-![Adult classes](/uploads/2022/01/4629699.png)
+![Adult classes](/uploads/4629699.png)
 
 ### Clubs 兴趣小组
 
@@ -96,7 +96,7 @@ Photography Club, Badminton Club, Chorus and others...
 
 各种传统文化的体验活动；各类文体活动线上线下精彩纷呈。
 
-![Campus life](/uploads/2022/01/561dd25d5211ef5968fea940105750c6-2.jpg)
+![Campus life](/uploads/561dd25d5211ef5968fea940105750c6-2.jpg)
 
 **Rich Resource 教学资源丰富**
 
@@ -128,12 +128,12 @@ PO Box 108
 
 ### 春节儿童摄影活动
 
-![春节儿童摄影](/uploads/2022/01/d64357e0a1678f7effb7059af2ed1555a0da8f5cd745452e7761fc6a17596bd4b6d68fdee54871e0a67e3c1a7491f17e6d1f9c99dffafd650047e7_1280.jpg)
+![春节儿童摄影](/uploads/d64357e0a1678f7effb7059af2ed1555a0da8f5cd745452e7761fc6a17596bd4b6d68fdee54871e0a67e3c1a7491f17e6d1f9c99dffafd650047e7_1280.jpg)
 
 正值新春佳节，一定有很多场景值得记录下来并分享给大家。请大家积极上传照片到下面的 link。此次摄影活动不仅奖品丰厚，还能培养孩子们有发现美的眼睛，有记录美的双手和分享美的心灵！期待大家的作品！
 
 ### 厨艺大赛
 
-![厨艺大赛](/uploads/2022/01/2278cc82efbdbd454ea275867ae952722bc8a5f736365acea56ca06970090b8d531927b266833a0dc787ef18dd33f08aa368450cff8b35f4d942b7_1280.jpg)
+![厨艺大赛](/uploads/2278cc82efbdbd454ea275867ae952722bc8a5f736365acea56ca06970090b8d531927b266833a0dc787ef18dd33f08aa368450cff8b35f4d942b7_1280.jpg)
 
 华夏总校为了活跃大家的生活，组织了一个厨艺大赛。厨艺大赛信息请点击总校网站首页 https://hxcs.org/。居家生活离不开美食，大家行动起来，为家人做美食，增添生活的色彩。

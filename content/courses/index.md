@@ -5,19 +5,19 @@ title: "课程 Courses"
 
 ## Our Courses 主要课程
 
-![Chinese courses](/uploads/2022/01/06.06.2021_20.27.06_REC.png)
+![Chinese courses](/uploads/06.06.2021_20.27.06_REC.png)
 
 ### 《马立平中文》K-9年级
 
 这套中文教材适用对象为来自华语家庭的儿童。目前，教材包括 K 至 9 年级，每个年级学习 3 个单元，配有相应的单双周练习本、暑假作业本和网络作业，可供周末中文学校使用十一年，也支持 After School 的中文教学。
 
-![Meizhou Chinese](/uploads/2022/01/06.06.2021_20.30.04_REC.png)
+![Meizhou Chinese](/uploads/06.06.2021_20.30.04_REC.png)
 
 ### 《美洲华语》K-9年级
 
 美洲华语教材适用各种级别的儿童学习中文。难度和作用量适中。教材包括练习册和生词卡，从拼音开始，由简入深，强调语言的应用。
 
-![CSL Chinese](/uploads/2022/01/06.06.2021_19.15.27_REC.png)
+![CSL Chinese](/uploads/06.06.2021_19.15.27_REC.png)
 
 ### 《CSL 中文》1-6年级
 
@@ -25,27 +25,27 @@ title: "课程 Courses"
 
 CSL老师将透过流利的中英文双语课堂教学，从拼音开始，延伸至识字、造句和会话。最终目标是协助学生们高中11年级时，中文语言技能和知识可达到美国大学理事会制订的大学进阶先修课程水平。
 
-![SAT](/uploads/2024/06/Screenshot2024-06-08182032.png)
+![SAT](/uploads/Screenshot2024-06-08182032.png)
 
 ### SAT
 
 SAT数学应试技巧和提高班
 SAT English
 
-![English Writing](/uploads/2022/01/06.06.2021_20.42.53_REC.png)
+![English Writing](/uploads/06.06.2021_20.42.53_REC.png)
 
 ### 英文写作课
 
 10岁以上英文写作班
 12岁以上英文写作班
 
-![Coding](/uploads/2022/01/06.06.2021_20.34.58_REC.png)
+![Coding](/uploads/06.06.2021_20.34.58_REC.png)
 
 ### 计算机编程课
 
 明星讲师带队，主要以Python为主，培养学生编程兴趣，并可参加全美编程奥林匹克竞赛。华夏学生组队多次获奖。
 
-![AP Prep](/uploads/2022/01/WeChatImage_20210606174302.png)
+![AP Prep](/uploads/WeChatImage_20210606174302.png)
 
 ### Prepare for AP
 
@@ -54,13 +54,13 @@ Prepare for AP English Language
 Prepare for AP English Literature
 AP 中文
 
-![Lego Robotics](/uploads/2022/01/20.01.2022_23.16.43_REC.png)
+![Lego Robotics](/uploads/20.01.2022_23.16.43_REC.png)
 
 ### Lego机器人课
 
 LEGO机器人课程分初级、中级和高级。以Lego Mindstorms（乐高机器人）为主，搭建题材和灵活的编程方式，能够激发出孩子们天生的创造力和想象力，培养团队精神。
 
-![MathCounts](/uploads/2022/01/mathcounts.png)
+![MathCounts](/uploads/mathcounts.png)
 
 ### Pre-MathCounts & MathCounts
 
@@ -102,25 +102,25 @@ MathCounts 1-3 级
 - 卡拉OK
 - Pickleball
 
-![Clubs](/uploads/2022/01/d20211003705.jpg)
+![Clubs](/uploads/d20211003705.jpg)
 
 ### 羽毛球俱乐部
 
 羽毛球俱乐部提供室内场地，俱乐部成员切磋练习，并有教练指导，定期活动。
 
-![Badminton club](/uploads/2022/01/11abbbd2011762a7cd9fe7a65a0a3bc4389931e4db97e696eda4d7e950b7c0e6e06bfebf8e703ff84a7d0cb06c0813a2146792da6e790b96ab8a69_1280.jpg)
+![Badminton club](/uploads/11abbbd2011762a7cd9fe7a65a0a3bc4389931e4db97e696eda4d7e950b7c0e6e06bfebf8e703ff84a7d0cb06c0813a2146792da6e790b96ab8a69_1280.jpg)
 
 ### 摄影俱乐部
 
 由专业大师带队的华夏摄影俱乐部小有名气，通过各种丰富多彩的活动，学习和实践，并提高摄影技巧。欢迎大家参加。
 
-![Photography club](/uploads/2022/01/d20211003558-1.jpg)
+![Photography club](/uploads/d20211003558-1.jpg)
 
 ### 篮球俱乐部
 
 篮球爱好者的俱乐部，竞技、健身和交友。
 
-![Basketball club](/uploads/2022/01/rtyyrt-min-1.jpg)
+![Basketball club](/uploads/rtyyrt-min-1.jpg)
 
 ### Online & In-person Classes
 

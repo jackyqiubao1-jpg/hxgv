@@ -3,7 +3,7 @@ title: "联系我们 Contact"
 ---
 # Contact Us 联系我们
 
-![Contact](/uploads/2022/01/Untitled-3.png)
+![Contact](/uploads/Untitled-3.png)
 
 **School hours 上课时间**
 

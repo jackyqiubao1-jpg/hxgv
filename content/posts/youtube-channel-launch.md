@@ -8,4 +8,4 @@ date: 2024-08-25
 
 圣诞/新年祝福2022 12
 
-![YouTube 频道](/uploads/2022/12/Screenshot-2022-12-27-213103-1024x545.png)
+![YouTube 频道](/uploads/Screenshot-2022-12-27-213103-1024x545.png)

@@ -3,7 +3,7 @@ title: "关于我们 About"
 ---
 # 关于我们 About Us
 
-![About us](/uploads/2022/01/36-0.jpeg)
+![About us](/uploads/36-0.jpeg)
 
 **华夏中文学校大费城分校的使命是推动大费城地区的语言教育、文化理解与社区联结。学校致力于为儿童、青少年、成年人和家庭创造包容的学习机会，帮助每个人积极学习、参与社区生活，并为多元而充满活力的社区作出贡献。**
 
@@ -21,9 +21,9 @@ Through Mandarin and cultural education, adult English classes, robotics and STE
 
 HuaXia welcomes individuals and families of all backgrounds and is committed to expanding access to quality education, promoting cross-cultural understanding, and inspiring active participation in a diverse and vibrant community.
 
-![School activities](/uploads/2022/01/d202110031291-1.jpg)
+![School activities](/uploads/d202110031291-1.jpg)
 
-![Students](/uploads/2022/01/054C4FC4-8C1F-47AF-B5DA-16FF13FB8229-1.jpg)
+![Students](/uploads/054C4FC4-8C1F-47AF-B5DA-16FF13FB8229-1.jpg)
 
 ## It's Not Just A School
 

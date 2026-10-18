@@ -33,9 +33,9 @@ CAPA-TE会员注册和续会：https://capate.org/join/
 4. 截至日期 2 月 9 日
 5. 我们鼓励孩子的参与，也一定会尽可能都在各种地方刊登。但是也有权利因为照片质量问题严重，或者主题不符提出改进建议，或者不予刊登
 
-![Cooking](/uploads/2022/01/Hengshun-cooking.jpg)
+![Cooking](/uploads/Hengshun-cooking.jpg)
 
-![Photography](/uploads/2022/01/b2da931ca3f08005a77575d18463a619f12c39f49e1707450d0014be2369393f79a63ae66b09cc961ec16e578d928c5e76cb547690e343932faa31_1280.jpg)
+![Photography](/uploads/b2da931ca3f08005a77575d18463a619f12c39f49e1707450d0014be2369393f79a63ae66b09cc961ec16e578d928c5e76cb547690e343932faa31_1280.jpg)
 
 ### 华夏总校春节厨艺大赛
 
@@ -43,14 +43,14 @@ CAPA-TE会员注册和续会：https://capate.org/join/
 
 ## Our Past Events
 
-![Past event](/uploads/2022/01/B025B2B3-18E4-4A78-B819-CE65C5BE791A-scaled.jpg)
+![Past event](/uploads/B025B2B3-18E4-4A78-B819-CE65C5BE791A-scaled.jpg)
 
-![Past event](/uploads/2022/01/DSC08387-scaled.jpg)
+![Past event](/uploads/DSC08387-scaled.jpg)
 
-![Past event](/uploads/2022/01/DSC08349-scaled.jpg)
+![Past event](/uploads/DSC08349-scaled.jpg)
 
-![Past event](/uploads/2022/01/DSC08427-scaled.jpg)
+![Past event](/uploads/DSC08427-scaled.jpg)
 
-![Past event](/uploads/2022/01/748B01CF-132A-4AEB-960F-606995A26215.jpg)
+![Past event](/uploads/748B01CF-132A-4AEB-960F-606995A26215.jpg)
 
-![Past event](/uploads/2022/01/3D0C52E7-7A08-4C00-AFB4-DF2CA62CA1B0-scaled.jpg)
+![Past event](/uploads/3D0C52E7-7A08-4C00-AFB4-DF2CA62CA1B0-scaled.jpg)
