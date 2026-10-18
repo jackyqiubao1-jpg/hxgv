@@ -23,6 +23,10 @@
       <a href="{{ .URL }}"{{ if $cur.IsMenuCurrent "main" . }} class="active"{{ end }}>{{ .Name }}</a>
       {{ end }}
     </nav>
+    <div class="search-wrap">
+      <input id="site-search" type="search" placeholder="搜索 Search..." autocomplete="off" aria-label="站内搜索">
+      <div id="search-results" class="search-results" hidden></div>
+    </div>
   </div>
 </header>
 
@@ -55,5 +59,6 @@
     </div>
   </div>
 </footer>
+<script src="/js/search.js" defer></script>
 </body>
 </html>

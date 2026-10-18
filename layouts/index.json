@@ -1,0 +1,13 @@
+{{- $pages := slice -}}
+{{- with .Site.GetPage "/" -}}
+  {{- $pages = $pages | append (dict "title" .Title "url" .RelPermalink "summary" "" "content" (.Plain | truncate 2000)) -}}
+{{- end -}}
+{{- range where .Site.RegularPages "Section" "in" (slice "posts" "") -}}
+  {{- $pages = $pages | append (dict "title" .Title "url" .RelPermalink "summary" (.Summary | plainify) "content" (.Plain | truncate 2000)) -}}
+{{- end -}}
+{{- range .Site.Sections -}}
+  {{- if and (ne .RelPermalink "/") (ne .RelPermalink "/posts/") -}}
+    {{- $pages = $pages | append (dict "title" .Title "url" .RelPermalink "summary" "" "content" (.Plain | truncate 2000)) -}}
+  {{- end -}}
+{{- end -}}
+{{- $pages | jsonify -}}

@@ -3,6 +3,9 @@ locale = 'zh-CN'
 defaultContentLanguage = 'zh'
 title = '华夏中文学校大费城分校 | HuaXia Chinese School at Great Valley'
 
+[outputs]
+  home = ["HTML", "JSON"]
+
 [params]
   description = '华夏中文学校大费城分校，since 2009。教授中文，弘扬中华文化，服务社区。'
   schoolName = '华夏中文学校大费城分校'
