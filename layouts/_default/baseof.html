@@ -5,35 +5,54 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css?family=Oswald:400,500,600,700%7COpen+Sans:400,400i,600,700&display=swap" rel="stylesheet">
 {{ $css := resources.Get "css/style.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}">
 </head>
 <body>
 <header class="site-header">
-  <div class="container">
+  <div class="container header-inner">
     <a class="brand" href="/">
       <span class="brand-cn">{{ .Site.Params.schoolName }}</span>
       <span class="brand-en">{{ .Site.Params.schoolNameEn }}</span>
     </a>
     <nav class="main-nav">
+      {{ $cur := . }}
       {{ range .Site.Menus.main }}
-      <a href="{{ .URL }}">{{ .Name }}</a>
+      <a href="{{ .URL }}"{{ if $cur.IsMenuCurrent "main" . }} class="active"{{ end }}>{{ .Name }}</a>
       {{ end }}
-      <a class="login-btn" href="https://reg.hxgv.org" target="_blank" rel="noopener">用户登录 Login</a>
     </nav>
   </div>
 </header>
 
-<main class="container">
 {{ block "main" . }}{{ end }}
-</main>
 
 <footer class="site-footer">
-  <div class="container">
-    <p><strong>{{ .Site.Params.schoolName }}</strong> · {{ .Site.Params.schoolNameEn }} · Since 2009</p>
-    <p>学校地址：East High School, 450 Ellis Lane, West Chester, PA 19380</p>
-    <p>邮政信箱：HXGV, PO Box 108, 64 E Uwchlan Ave, Exton, PA 19341</p>
-    <p>每周日下午 1:00–5:00 授课 · 每学年 30 周</p>
+  <div class="footer-top">
+    <div class="container footer-grid">
+      <div>
+        <h3>School Information</h3>
+        <p><strong>学校地址 School address</strong><br>
+        East High School<br>450 Ellis Lane<br>West Chester, PA 19380</p>
+        <p><strong>邮政信箱 Mailing address</strong><br>
+        HXGV<br>PO Box 108<br>64 E Uwchlan Ave, Exton, PA 19341</p>
+      </div>
+      <div>
+        <h3>Contact Us</h3>
+        <p><a href="mailto:principal@hxgv.org">principal@hxgv.org</a><br>
+        <a href="mailto:registration@hxgv.org">registration@hxgv.org</a><br>
+        <a href="mailto:webadmin@hxgv.org">webadmin@hxgv.org</a></p>
+        <p><a class="login-link" href="https://reg.hxgv.org" target="_blank" rel="noopener">用户登录 User Login →</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bar">
+    <div class="container">
+      <span>SCHOOL HOURS: Sunday 1:00pm–5:00pm</span>
+      <span>450 Ellis Lane, West Chester, PA 19380</span>
+      <span><a href="https://hxcs.org" target="_blank" rel="noopener">hxcs.org</a></span>
+    </div>
   </div>
 </footer>
 </body>

@@ -1,94 +1,191 @@
+/* HuaXia Chinese School at Great Valley — Nicepage-style replica */
 :root {
-  --primary: #b71c1c;
-  --primary-dark: #8e1414;
-  --text: #333;
+  --yellow: #f5b800;
+  --yellow-light: #ffd94d;
+  --yellow-bg: #ffc61a;
+  --pink: #fe7ec9;
+  --pink-dark: #d75fa6;
+  --teal: #38c4c1;
+  --blue: #488df4;
+  --ink: #1a1a1a;
   --muted: #666;
   --bg: #fff;
-  --bg-soft: #faf7f2;
-  --border: #e8e0d5;
-  --maxw: 900px;
 }
 * { box-sizing: border-box; }
 body {
   margin: 0;
-  font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", system-ui, sans-serif;
-  color: var(--text);
+  font-family: "Open Sans", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  color: var(--ink);
   background: var(--bg);
-  line-height: 1.8;
-}
-.container { max-width: var(--maxw); margin: 0 auto; padding: 0 20px; }
-
-/* header */
-.site-header {
-  background: var(--primary);
-  color: #fff;
-  padding: 14px 0;
-  position: sticky;
-  top: 0;
-  z-index: 10;
-}
-.site-header .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-.brand { color: #fff; text-decoration: none; line-height: 1.4; }
-.brand-cn { display: block; font-size: 1.25rem; font-weight: 700; }
-.brand-en { display: block; font-size: 0.75rem; opacity: 0.85; }
-.main-nav { display: flex; gap: 4px; flex-wrap: wrap; align-items: center; }
-.main-nav a {
-  color: #fff;
-  text-decoration: none;
-  padding: 6px 12px;
-  border-radius: 6px;
-  font-size: 0.95rem;
-}
-.main-nav a:hover { background: rgba(255,255,255,0.18); }
-.login-btn { border: 1px solid rgba(255,255,255,0.7); }
-
-/* hero */
-.hero {
-  text-align: center;
-  padding: 56px 20px 40px;
-  background: linear-gradient(180deg, #fdf6ec, var(--bg));
-  border-bottom: 1px solid var(--border);
-}
-.hero h1 { font-size: 2rem; margin: 0 0 8px; color: var(--primary-dark); }
-.hero-en { color: var(--muted); margin: 0 0 6px; }
-.hero-tag { font-size: 1.2rem; font-weight: 600; margin: 8px 0 0; }
-
-/* content */
-main.container { padding-top: 28px; padding-bottom: 48px; }
-.page h1 { font-size: 1.7rem; border-bottom: 2px solid var(--primary); padding-bottom: 8px; }
-.page h2 { font-size: 1.35rem; color: var(--primary-dark); margin-top: 1.8em; }
-.page h3 { font-size: 1.15rem; }
-.page img { max-width: 100%; height: auto; border-radius: 8px; }
-.page a { color: var(--primary); }
-.page table { border-collapse: collapse; width: 100%; margin: 1em 0; }
-.page th, .page td { border: 1px solid var(--border); padding: 8px 12px; text-align: left; }
-.page th { background: var(--bg-soft); }
-
-/* post list */
-.post-item { border-bottom: 1px solid var(--border); padding: 18px 0; }
-.post-item h2 { margin: 0 0 4px; font-size: 1.2rem; }
-.post-item h2 a { color: var(--text); text-decoration: none; }
-.post-item h2 a:hover { color: var(--primary); }
-.post-item time { color: var(--muted); font-size: 0.85rem; }
-
-/* footer */
-.site-footer {
-  background: #2b2b2b;
-  color: #ccc;
-  padding: 32px 0;
-  font-size: 0.9rem;
   line-height: 1.7;
 }
-.site-footer p { margin: 4px 0; }
-.site-footer strong { color: #fff; }
+h1, h2, h3, h4 { font-family: Oswald, "PingFang SC", "Microsoft YaHei", sans-serif; letter-spacing: .02em; }
+.container { max-width: 1140px; margin: 0 auto; padding: 0 20px; }
+.narrow { max-width: 860px; }
+.center { text-align: center; }
+img { max-width: 100%; height: auto; }
+a { color: var(--pink-dark); }
 
-@media (max-width: 640px) {
-  .hero h1 { font-size: 1.5rem; }
-  .site-header .container { flex-direction: column; align-items: flex-start; }
+/* ---------- header ---------- */
+.site-header { background: #fff; border-bottom: 1px solid #eee; position: sticky; top: 0; z-index: 50; }
+.header-inner { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-top: 10px; padding-bottom: 10px; flex-wrap: wrap; }
+.brand { text-decoration: none; color: var(--ink); line-height: 1.35; }
+.brand-cn { display: block; font-family: Oswald, "PingFang SC", sans-serif; font-weight: 700; font-size: 1.3rem; color: var(--pink-dark); }
+.brand-en { display: block; font-size: .72rem; color: var(--muted); letter-spacing: .04em; }
+.main-nav { display: flex; gap: 2px; flex-wrap: wrap; }
+.main-nav a {
+  text-decoration: none; color: var(--ink); font-family: Oswald, sans-serif;
+  font-size: .85rem; letter-spacing: .06em; padding: 8px 14px; border-radius: 999px;
+}
+.main-nav a:hover { background: #f5f5f5; }
+.main-nav a.active { background: var(--yellow); color: #fff; }
+
+/* ---------- buttons ---------- */
+.btn {
+  display: inline-block; text-decoration: none; font-family: Oswald, sans-serif;
+  letter-spacing: .08em; padding: 12px 34px; border-radius: 999px; font-size: .95rem;
+  transition: transform .15s ease;
+}
+.btn:hover { transform: translateY(-2px); }
+.btn-teal { background: var(--teal); color: #fff; }
+.btn-pink { background: var(--pink); color: #fff; }
+
+/* ---------- hero ---------- */
+.hero {
+  background: linear-gradient(rgba(20,20,30,.55), rgba(20,20,30,.55)),
+    url("/uploads/561dd25d5211ef5968fea940105750c6-2.jpg") center/cover;
+  color: #fff; text-align: center; padding: 110px 20px 90px;
+}
+.hero h1 {
+  color: var(--yellow-light); font-size: clamp(1.8rem, 5vw, 3.2rem);
+  margin: 0 0 10px; text-transform: uppercase; text-shadow: 0 2px 12px rgba(0,0,0,.4);
+}
+.hero-sub { font-size: 1.15rem; margin: 0 0 26px; letter-spacing: .05em; }
+
+/* ---------- quick links band ---------- */
+.quicklinks-band { background: var(--yellow-bg); padding: 34px 0; }
+.quicklinks { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
+.ql-card {
+  background: #fff; border-radius: 12px; padding: 22px 14px; text-align: center;
+  text-decoration: none; color: var(--ink); box-shadow: 0 4px 14px rgba(0,0,0,.08);
+  display: flex; flex-direction: column; align-items: center; gap: 6px;
+}
+.ql-card:hover { transform: translateY(-3px); box-shadow: 0 8px 20px rgba(0,0,0,.12); }
+.ql-icon {
+  width: 54px; height: 54px; border-radius: 50%; display: flex; align-items: center;
+  justify-content: center; font-size: 1.5rem; color: #fff;
+}
+.ql-title { font-family: Oswald, sans-serif; font-weight: 600; font-size: .92rem; letter-spacing: .03em; }
+.ql-sub { font-size: .82rem; color: var(--muted); }
+
+/* ---------- sections ---------- */
+section { padding: 64px 0; }
+.section-title {
+  text-align: center; font-size: 1.9rem; text-transform: uppercase; margin: 0 0 8px;
+}
+.section-title span { color: var(--pink); }
+.section-title.light { color: #fff; }
+.section-title.light span { color: #fff; opacity: .9; }
+
+.mission { background: #fff; text-align: center; }
+.mission h2 { color: var(--pink-dark); font-size: 1.7rem; }
+.mission .en { color: var(--muted); font-style: italic; }
+
+/* ---------- news & events ---------- */
+.news-events { background: #fafafa; }
+.ne-grid { display: grid; grid-template-columns: 1.2fr 1fr 1fr; gap: 18px; margin-top: 30px; }
+.ne-card {
+  border-radius: 12px; padding: 26px 22px; text-decoration: none; color: var(--ink);
+  position: relative; overflow: hidden; display: flex; flex-direction: column; gap: 8px;
+  box-shadow: 0 4px 14px rgba(0,0,0,.06);
+}
+.ne-card:hover { transform: translateY(-3px); }
+.ne-photo { grid-row: span 2; padding: 0; min-height: 380px; }
+.ne-photo img { width: 100%; height: 100%; object-fit: cover; position: absolute; inset: 0; }
+.ne-label {
+  position: absolute; bottom: 0; left: 0; right: 0; padding: 40px 20px 16px;
+  background: linear-gradient(transparent, rgba(0,0,0,.75)); color: #fff;
+  font-family: Oswald, sans-serif; font-size: 1.1rem;
+}
+.ne-badge {
+  width: 52px; height: 52px; border-radius: 50%; display: flex; align-items: center;
+  justify-content: center; font-size: 1.4rem; color: #fff;
+}
+.ne-card h3 { font-size: 1.15rem; margin: 0; letter-spacing: .05em; }
+.ne-card p { margin: 0; font-size: .92rem; color: var(--muted); font-style: italic; }
+.ne-card .more { font-family: Oswald, sans-serif; color: var(--pink); font-size: .85rem; letter-spacing: .08em; margin-top: auto; }
+
+/* ---------- courses ---------- */
+.courses-band { background: var(--yellow-bg); }
+.course-grid {
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; margin: 30px 0;
+}
+.course-card {
+  background: #fff; border-radius: 12px; padding: 24px 18px; text-align: center;
+  box-shadow: 0 4px 14px rgba(0,0,0,.08);
+}
+.course-card:hover { transform: translateY(-3px); }
+.c-icon { font-size: 2.2rem; }
+.course-card h3 { font-size: 1.02rem; margin: 10px 0 8px; line-height: 1.4; }
+.course-card h3 small { font-size: .8em; font-weight: 400; }
+.course-card ul { list-style: none; margin: 0; padding: 0; font-size: .86rem; color: var(--muted); line-height: 1.9; }
+
+/* ---------- why us ---------- */
+.whyus-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-top: 30px; }
+.whyus-card {
+  border: 1px solid #eee; border-radius: 12px; padding: 24px 20px; background: #fff;
+}
+.whyus-card h4 { color: var(--pink-dark); margin: 0 0 8px; font-size: 1.02rem; }
+.whyus-card p { margin: 0; font-size: .92rem; color: var(--muted); }
+.whyus-sub { text-align: center; color: var(--ink); font-size: 1.25rem; }
+
+/* ---------- registration CTA ---------- */
+.registration-cta { background: linear-gradient(135deg, #fff5f9, #fff); }
+.registration-cta h2 { color: var(--pink-dark); }
+
+/* ---------- inner pages ---------- */
+.page-wrap { padding: 48px 0 64px; }
+.page-wrap h1 {
+  font-size: 1.8rem; color: var(--pink-dark); border-bottom: 3px solid var(--yellow);
+  padding-bottom: 10px; margin-top: 0;
+}
+.page-wrap h2 { color: var(--ink); font-size: 1.35rem; margin-top: 1.8em; }
+.page-wrap h3 { font-size: 1.12rem; }
+.page-wrap img { border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,.08); }
+.page-wrap table { border-collapse: collapse; width: 100%; margin: 1em 0; }
+.page-wrap th, .page-wrap td { border: 1px solid #e5e5e5; padding: 8px 12px; text-align: left; }
+.page-wrap th { background: #fff8e6; }
+.post-list { margin-top: 10px; }
+.post-item { border-bottom: 1px solid #eee; padding: 20px 0; }
+.post-item h2 { margin: 0 0 4px; font-size: 1.25rem; }
+.post-item h2 a { color: var(--ink); text-decoration: none; }
+.post-item h2 a:hover { color: var(--pink-dark); }
+.post-item time { color: var(--muted); font-size: .85rem; }
+
+/* ---------- footer ---------- */
+.site-footer { margin-top: 0; }
+.footer-top { background: #f7f7f7; padding: 44px 0; }
+.footer-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
+.footer-top h3 { font-size: 1.05rem; letter-spacing: .08em; text-transform: uppercase; color: var(--ink); }
+.footer-top p { font-size: .92rem; color: var(--muted); }
+.footer-top a { color: var(--pink-dark); text-decoration: none; }
+.login-link { font-weight: 600; }
+.footer-bar { background: #111; color: #bbb; padding: 16px 0; font-size: .82rem; }
+.footer-bar .container { display: flex; gap: 26px; flex-wrap: wrap; }
+.footer-bar a { color: var(--yellow-light); text-decoration: none; }
+
+/* ---------- responsive ---------- */
+@media (max-width: 900px) {
+  .quicklinks { grid-template-columns: repeat(2, 1fr); }
+  .course-grid { grid-template-columns: repeat(2, 1fr); }
+  .whyus-grid { grid-template-columns: 1fr 1fr; }
+  .ne-grid { grid-template-columns: 1fr 1fr; }
+  .ne-photo { grid-row: auto; grid-column: span 2; min-height: 260px; }
+}
+@media (max-width: 600px) {
+  .header-inner { flex-direction: column; align-items: flex-start; }
+  .course-grid, .whyus-grid, .ne-grid { grid-template-columns: 1fr; }
+  .ne-photo { grid-column: auto; }
+  .footer-grid { grid-template-columns: 1fr; }
+  section { padding: 44px 0; }
 }

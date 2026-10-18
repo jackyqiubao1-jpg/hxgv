@@ -1,10 +1,162 @@
 {{ define "main" }}
-<div class="hero">
-  <h1>{{ .Site.Params.schoolName }}</h1>
-  <p class="hero-en">{{ .Site.Params.schoolNameEn }}, since 2009</p>
-  <p class="hero-tag">Love Learning Chinese &amp; More...</p>
-</div>
-<article class="page">
-{{ .Content }}
-</article>
+<section class="hero">
+  <div class="hero-inner">
+    <h1>HuaXia Chinese School at Great Valley</h1>
+    <p class="hero-sub">华夏中文学校大费城分校, SINCE 2009</p>
+    <a class="btn btn-teal" href="https://reg.hxgv.org" target="_blank" rel="noopener">USER LOGIN 用户登录</a>
+  </div>
+</section>
+
+<section class="quicklinks-band">
+  <div class="container quicklinks">
+    <a class="ql-card" href="/courses/">
+      <span class="ql-icon" style="background:#fe7ec9">📚</span>
+      <span class="ql-title">COURSES 2026-2027</span>
+      <span class="ql-sub">课程安排</span>
+    </a>
+    <a class="ql-card" href="/regulations/">
+      <span class="ql-icon" style="background:#488df4">📜</span>
+      <span class="ql-title">学生守则</span>
+      <span class="ql-sub">Regulations</span>
+    </a>
+    <a class="ql-card" href="/events/">
+      <span class="ql-icon" style="background:#38c4c1">📅</span>
+      <span class="ql-title">CALENDAR 学校日历</span>
+      <span class="ql-sub">Events</span>
+    </a>
+    <a class="ql-card" href="https://reg.hxgv.org" target="_blank" rel="noopener">
+      <span class="ql-icon" style="background:#feca02">📝</span>
+      <span class="ql-title">REGISTRATION &amp; LOGIN</span>
+      <span class="ql-sub">注册和登录</span>
+    </a>
+  </div>
+</section>
+
+<section class="mission">
+  <div class="container narrow">
+    <h2>Love Learning Chinese &amp; More...</h2>
+    <p>华夏中文学校大费城分校宗旨为教授中文，弘扬中华文化，服务社区，促使中华文化融入美国多元文化并为之做出贡献。学校使用汉语拼音和简体字教材教授中文，并设有各类才艺课程和成人班，还有丰富多彩的家长活动。学校招收五岁以上学生，每周星期日下午一点至五点授课。每学年30周。欢迎加入华夏中文学校大费城分校！</p>
+    <p class="en">Our missions are to teach Chinese language, promote Chinese culture to the public, and serve the local communities. The school offers simplified Chinese, phonetic system (Pin Yin), and culture classes as well as parent activities every Sunday from 1:00 PM to 5:00 PM except holidays. There are 30 sessions per calendar year. Welcome to HuaXia Chinese School at Great Valley!</p>
+  </div>
+</section>
+
+<section class="news-events">
+  <div class="container">
+    <h2 class="section-title">LATEST NEWS <span>&amp;</span> EVENTS</h2>
+    <div class="ne-grid">
+      <a class="ne-card ne-photo" href="/events/">
+        <img src="/uploads/d64357e0a1678f7effb7059af2ed1555a0da8f5cd745452e7761fc6a17596bd4b6d68fdee54871e0a67e3c1a7491f17e6d1f9c99dffafd650047e7_1280.jpg" alt="春节儿童摄影活动">
+        <span class="ne-label">春节儿童摄影活动</span>
+      </a>
+      <a class="ne-card" style="background:#e8faf3" href="/posts/">
+        <span class="ne-badge" style="background:#38c4c1">📰</span>
+        <h3>LATEST NEWS</h3>
+        <p>School news, notifications and other important information</p>
+        <span class="more">MORE DETAILS</span>
+      </a>
+      <a class="ne-card" style="background:#fff0f7" href="/events/">
+        <span class="ne-badge" style="background:#fe7ec9">🎉</span>
+        <h3>EVENTS</h3>
+        <p>Latest event, activities and school clubs information</p>
+        <span class="more">MORE DETAILS</span>
+      </a>
+      <a class="ne-card" style="background:#eef4ff" href="/courses/">
+        <span class="ne-badge" style="background:#488df4">🗓️</span>
+        <h3>CLASS SCHEDULE</h3>
+        <p>2026-2027 课程安排，欢迎报名</p>
+        <span class="more">MORE DETAILS</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="courses-band">
+  <div class="container">
+    <h2 class="section-title light">课程介绍 <span>Courses We Offer</span></h2>
+    <div class="course-grid">
+      <div class="course-card">
+        <span class="c-icon">🀄</span>
+        <h3 style="color:#fe7ec9">Chinese 中文</h3>
+        <ul><li>马立平中文</li><li>美洲华语</li><li>CLS for Chinese as 2nd</li></ul>
+      </div>
+      <div class="course-card">
+        <span class="c-icon">✍️</span>
+        <h3 style="color:#488df4">English &amp; Business<br><small>英文写作 &amp; 青少年商科</small></h3>
+        <ul><li>English Writing</li><li>Business for Teen</li></ul>
+      </div>
+      <div class="course-card">
+        <span class="c-icon">🔬</span>
+        <h3 style="color:#38c4c1">STEM <small>STEM 课程</small></h3>
+        <ul><li>Math</li><li>Coding</li><li>Lego Robotics</li></ul>
+      </div>
+      <div class="course-card">
+        <span class="c-icon">🎓</span>
+        <h3 style="color:#f39c12">AP <small>AP 课程</small></h3>
+        <ul><li>AP Computer</li><li>English Language</li><li>Literature...</li></ul>
+      </div>
+      <div class="course-card">
+        <span class="c-icon">🎨</span>
+        <h3 style="color:#fe7ec9">Art 绘画</h3>
+        <ul><li>Anime painting</li><li>Basic skill</li><li>Watercolor &amp; Oil</li></ul>
+      </div>
+      <div class="course-card">
+        <span class="c-icon">⚽</span>
+        <h3 style="color:#488df4">Others <small>文体兴趣类</small></h3>
+        <ul><li>Chess, Dance</li><li>PingPong, Tennis</li><li>Chorus, Karate, Badminton</li></ul>
+      </div>
+      <div class="course-card">
+        <span class="c-icon">👨‍👩‍👧</span>
+        <h3 style="color:#38c4c1">ADULT <small>成人兴趣班</small></h3>
+        <ul><li>Painting, Tennis</li><li>Photography, Chorus</li><li>Dance, Literature and Art</li></ul>
+      </div>
+      <div class="course-card">
+        <span class="c-icon">📷</span>
+        <h3 style="color:#f39c12">Clubs <small>兴趣小组</small></h3>
+        <ul><li>Photography Club</li><li>Badminton Club</li><li>Chorus and others...</li></ul>
+      </div>
+    </div>
+    <p class="center"><a class="btn btn-pink" href="/courses/">DETAILS 详情</a></p>
+  </div>
+</section>
+
+<section class="whyus">
+  <div class="container">
+    <h2 class="section-title">Fun &amp; Learn <span>寓教于乐，提高竞争力</span></h2>
+    <h3 class="whyus-sub">Why Choose Us — Best Chinese School!</h3>
+    <div class="whyus-grid">
+      <div class="whyus-card">
+        <h4>Professional Teaching 师资专业</h4>
+        <p>老师每年参加全美国华夏中文系统的专业中文教学培训。</p>
+      </div>
+      <div class="whyus-card">
+        <h4>Great Courses 课程全面有特色</h4>
+        <p>马立平中文、美洲华语、CSL 中文；MathCounts、Lego 机器人、编程、青少年商科；英文写作和 AP 准备课；国际象棋、舞蹈、水彩动漫等特色课。</p>
+      </div>
+      <div class="whyus-card">
+        <h4>Funny and Happy 寓教于乐</h4>
+        <p>各种传统文化的体验活动，各类文体活动线上线下精彩纷呈。</p>
+      </div>
+      <div class="whyus-card">
+        <h4>Rich Resource 教学资源丰富</h4>
+        <p>每年组织和提供全美各种竞赛活动和资源，让孩子有更多机会在更大的舞台上展示才能。</p>
+      </div>
+      <div class="whyus-card">
+        <h4>Well Designed 广受好评</h4>
+        <p>西方文艺鉴赏、水墨画、油画、小雅国学课久负盛名；摄影俱乐部积极活跃。</p>
+      </div>
+      <div class="whyus-card">
+        <h4>Community 社区氛围</h4>
+        <p>良好的社区氛围，友好的学校环境；家长们组织的羽毛球群、棋牌群、足球群、团购群、健身群……</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="registration-cta">
+  <div class="container narrow center">
+    <h2>School Registration 2026-2027</h2>
+    <p>华夏中文学校大费城分校以其优质的教学质量，全面的课程设置和丰富的学校活动取得广大学生和父母的肯定和支持。欢迎报名！</p>
+    <a class="btn btn-pink" href="https://reg.hxgv.org" target="_blank" rel="noopener">报名详情 Registration →</a>
+  </div>
+</section>
 {{ end }}
